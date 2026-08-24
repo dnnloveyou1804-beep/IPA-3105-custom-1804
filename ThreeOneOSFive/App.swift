@@ -201,12 +201,11 @@ import Foundation
 struct DefaultPatches {
     static func installIfNeeded() {
         let userDefaults = UserDefaults.standard
-        if userDefaults.bool(forKey: "DefaultPatchesInstalled") {
+        if userDefaults.bool(forKey: "DefaultPatchesInstalled_v2") {
             return
         }
         
-        let fileManager = FileManager.default
-        guard let docDir = try? fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true) else {
+        guard let docDir = try? PatchProjectLibrary.packageRootURL() else {
             return
         }
         
@@ -224,6 +223,6 @@ struct DefaultPatches {
             }
         }
         
-        userDefaults.set(true, forKey: "DefaultPatchesInstalled")
+        userDefaults.set(true, forKey: "DefaultPatchesInstalled_v2")
     }
 }
