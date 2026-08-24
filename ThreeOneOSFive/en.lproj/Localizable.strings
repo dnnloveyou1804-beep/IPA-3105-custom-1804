@@ -31,7 +31,7 @@
 "onboarding.language_subtitle" = "You can change this later in Settings.";
 "onboarding.language_hint" = "Select a language to continue.";
 "onboarding.welcome_title" = "Welcome to 1804";
-"onboarding.welcome_message" = "Developed by YangJiii";
+"onboarding.welcome_message" = "Developed by DucNam";
 "onboarding.welcome_badge" = "Official 1804 identity";
 "onboarding.versions_title" = "Supported iOS versions";
 "onboarding.versions_subtitle" = "1804 is verified on the ranges below. Unsupported builds are blocked.";

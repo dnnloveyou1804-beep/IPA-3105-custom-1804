@@ -31,7 +31,7 @@
 "onboarding.language_subtitle" = "之后可在设置中更改。";
 "onboarding.language_hint" = "选择一种语言以继续。";
 "onboarding.welcome_title" = "欢迎使用 1804";
-"onboarding.welcome_message" = "由 YangJiii 开发";
+"onboarding.welcome_message" = "由 DucNam 开发";
 "onboarding.welcome_badge" = "官方 1804 标识";
 "onboarding.versions_title" = "支持的 iOS 版本";
 "onboarding.versions_subtitle" = "1804 已在下列范围内验证。不支持的版本会被阻止。";

@@ -334,12 +334,19 @@ enum PatchPackageCodec {
     }
 
     private static func parseEnvelope(_ data: Data) throws -> Envelope {
-        guard data.count > magic.count,
-              data.prefix(magic.count) == magic
-        else {
+        let magic1804 = Data("1804PATCH\0".utf8)
+        let magic3105 = Data("3105PATCH\0".utf8)
+        
+        let validMagic: Data
+        if data.count > magic1804.count && data.prefix(magic1804.count) == magic1804 {
+            validMagic = magic1804
+        } else if data.count > magic3105.count && data.prefix(magic3105.count) == magic3105 {
+            validMagic = magic3105
+        } else {
             throw PatchPackageError.unsupportedFormat
         }
-        let encoded = data.dropFirst(magic.count)
+        
+        let encoded = data.dropFirst(validMagic.count)
         let envelope: Envelope
         do {
             envelope = try PropertyListDecoder().decode(Envelope.self, from: Data(encoded))

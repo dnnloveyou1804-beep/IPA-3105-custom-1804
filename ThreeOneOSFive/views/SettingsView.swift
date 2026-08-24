@@ -68,7 +68,7 @@ struct SettingsView: View {
                     creditsRow(
                         name: "GitHub",
                         role: language.text("social.github_role"),
-                        url: "https://github.com/YangJiiii/1804"
+                        url: "https://github.com/DucNami/1804"
                     )
                     creditsRow(
                         name: "Cộng Đồng IOSVN",
@@ -79,7 +79,7 @@ struct SettingsView: View {
 
                 Section(language.text("settings.credits")) {
                     creditsRow(
-                        name: "YangJiii",
+                        name: "DucNam",
                         role: language.text("credit.DucNam"),
                         url: "https://x.com/duongduong0908"
                     )
