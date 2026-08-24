@@ -4,7 +4,8 @@ import Foundation
 import Security
 
 enum PatchPackageCodec {
-    private static let magic = Data("1804PATCH\0".utf8)
+    private static let magic1804 = Data("1804PATCH\0".utf8)
+    private static let magic3105 = Data("3105PATCH\0".utf8)
     static let latestSchemaVersion = 2
     private static let minimumSchemaVersion = 1
 
@@ -390,7 +391,7 @@ enum PatchPackageCodec {
         let encoder = PropertyListEncoder()
         encoder.outputFormat = .binary
         let body = try encoder.encode(envelope)
-        var result = magic
+        var result = magic3105
         result.append(body)
         return result
     }
