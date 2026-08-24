@@ -6,7 +6,7 @@ All notable user-facing changes are documented in this file.
 
 ### Added
 
-- Bundle-tree Patch workspace v2 under `On My iPhone/3105/Patches`, synchronized automatically when applying or exporting.
+- Bundle-tree Patch workspace v2 under `On My iPhone/1804/Patches`, synchronized automatically when applying or exporting.
 - Multiple independent Files tabs with preserved navigation state.
 - ZIP extraction with path, symbolic-link, CRC, and available-space validation.
 - Responsive iPad split-view and landscape navigation.
@@ -17,7 +17,7 @@ All notable user-facing changes are documented in this file.
 - Patch creation from an app-container file or folder now captures the stable bundle identifier and editable destination tree automatically.
 - Patch package imports no longer use the previous fixed payload-size or file-count ceiling; practical device storage and memory still apply.
 - Files and Patch screens now use consistent grouped cards, compact icons, balanced nested rows, and stable search presentation.
-- Legacy v1 `.3105` packages remain importable and usable.
+- Legacy v1 `.1804` packages remain importable and usable.
 
 ### Fixed
 
@@ -39,7 +39,7 @@ All notable user-facing changes are documented in this file.
 
 - Bundle-based App Data Browser with MHA-C2 container discovery.
 - Native file operations: search, multi-file import, rename, delete, create file/folder, and conflict handling.
-- Portable `.3105` patch projects with optional password protection and file/folder rules.
+- Portable `.1804` patch projects with optional password protection and file/folder rules.
 - Limited per-app cleaner for `Library/Caches` and `tmp`.
 - Wallpaper Lab for validated `.tendies` packages with installation receipts and targeted reset.
 - English, Vietnamese, and Simplified Chinese localization.
@@ -53,9 +53,9 @@ All notable user-facing changes are documented in this file.
 ### Fixed
 
 - Stabilized persistent search presentation in app and file browsers.
-- Fixed native document selection for replacement files and `.3105` package imports.
+- Fixed native document selection for replacement files and `.1804` package imports.
 - Resolved bundle-name mapping for enumerated app containers where metadata is available.
-- Limited wallpaper reset to active content installed by 3105.
+- Limited wallpaper reset to active content installed by 1804.
 - Corrected Cleaner layout when no removable app data is found.
 
 ### Compatibility

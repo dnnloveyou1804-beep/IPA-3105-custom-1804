@@ -54,7 +54,7 @@ enum WallpaperInstaller {
             )
             originalNames[identifier] = try fileManager.contentsOfDirectory(
                 atPath: descriptorDirectory.path
-            ).filter { !$0.hasPrefix(".3105-wallpaper-") }.sorted()
+            ).filter { !$0.hasPrefix(".1804-wallpaper-") }.sorted()
         }
 
         let transactionID = UUID()
@@ -114,7 +114,7 @@ enum WallpaperInstaller {
                 try writeReceipt(receipt)
 
                 let stagingURL = destinationDirectory.appendingPathComponent(
-                    ".3105-wallpaper-\(UUID().uuidString)",
+                    ".1804-wallpaper-\(UUID().uuidString)",
                     isDirectory: true
                 )
                 let finalURL = destinationDirectory.appendingPathComponent(

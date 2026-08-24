@@ -4,7 +4,7 @@ import Foundation
 import Security
 
 enum PatchPackageCodec {
-    private static let magic = Data("3105PATCH\0".utf8)
+    private static let magic = Data("1804PATCH\0".utf8)
     static let latestSchemaVersion = 2
     private static let minimumSchemaVersion = 1
 
@@ -454,10 +454,10 @@ enum PatchPackageCodec {
     }
 
     private static func keyAAD(for packageID: UUID, version: Int) -> Data {
-        Data("3105PATCH/v\(version)/key/\(packageID.uuidString)".utf8)
+        Data("1804PATCH/v\(version)/key/\(packageID.uuidString)".utf8)
     }
 
     private static func payloadAAD(for packageID: UUID, version: Int) -> Data {
-        Data("3105PATCH/v\(version)/payload/\(packageID.uuidString)".utf8)
+        Data("1804PATCH/v\(version)/payload/\(packageID.uuidString)".utf8)
     }
 }

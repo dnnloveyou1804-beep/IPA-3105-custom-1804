@@ -30,12 +30,30 @@ struct AppRowIcon: View {
         ZStack {
             RoundedRectangle(cornerRadius: 7, style: .continuous)
                 .fill(tint.opacity(0.12))
+                .shadow(color: tint.opacity(0.6), radius: 5, x: 0, y: 0) // Neon Glow
             Image(systemName: systemName)
                 .font(.system(size: symbolSize, weight: .medium))
                 .foregroundStyle(tint)
+                .shadow(color: tint, radius: 2, x: 0, y: 0) // Text Glow
         }
         .frame(width: frameSize, height: frameSize)
         .accessibilityHidden(true)
+    }
+}
+
+// Neon Touch Button Style
+struct NeonButtonStyle: ButtonStyle {
+    var tint: Color = AppTheme.accent
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding()
+            .background(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .fill(tint.opacity(configuration.isPressed ? 0.3 : 0.1))
+                    .shadow(color: tint.opacity(configuration.isPressed ? 1.0 : 0.4), radius: configuration.isPressed ? 15 : 5, x: 0, y: 0)
+            )
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+            .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }
 }
 
@@ -102,6 +120,7 @@ struct AppLogo: View {
         }
         .frame(width: size, height: size)
         .clipShape(RoundedRectangle(cornerRadius: size * 0.22, style: .continuous))
+        .shadow(color: AppTheme.accent.opacity(0.8), radius: 10, x: 0, y: 0) // Neon Logo Glow
         .accessibilityHidden(true)
     }
 }

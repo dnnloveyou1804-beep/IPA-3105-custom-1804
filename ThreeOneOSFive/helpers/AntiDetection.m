@@ -1,6 +1,6 @@
 //
 //  AntiDetection.m
-//  3105
+//  1804
 //
 //  Prevents the app from being flagged as jailbroken by common
 //  jailbreak-detection checks. Safe because the app never forks.

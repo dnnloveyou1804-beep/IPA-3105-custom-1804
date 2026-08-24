@@ -491,7 +491,7 @@ enum PatchTransaction {
         fileManager: FileManager
     ) throws {
         let staging = target.deletingLastPathComponent()
-            .appendingPathComponent(".3105-patch-\(UUID().uuidString)")
+            .appendingPathComponent(".1804-patch-\(UUID().uuidString)")
         var attributes: [FileAttributeKey: Any] = [:]
         if preservingExistingAttributes,
            let current = try? fileManager.attributesOfItem(atPath: target.path) {
@@ -516,7 +516,7 @@ enum PatchTransaction {
         fileManager: FileManager
     ) throws {
         let staging = target.deletingLastPathComponent()
-            .appendingPathComponent(".3105-restore-\(UUID().uuidString)")
+            .appendingPathComponent(".1804-restore-\(UUID().uuidString)")
         defer { try? fileManager.removeItem(at: staging) }
         try fileManager.copyItem(at: source, to: staging)
         let handle = try FileHandle(forWritingTo: staging)

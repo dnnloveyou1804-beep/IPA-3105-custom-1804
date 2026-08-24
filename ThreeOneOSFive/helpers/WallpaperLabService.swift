@@ -44,7 +44,7 @@ enum WallpaperAccessProbe {
             }
 
             let probeURL = descriptorDirectory.appendingPathComponent(
-                ".3105-wallpaper-probe-\(UUID().uuidString)",
+                ".1804-wallpaper-probe-\(UUID().uuidString)",
                 isDirectory: true
             )
             let created = mkdir(probeURL.path, 0o700) == 0

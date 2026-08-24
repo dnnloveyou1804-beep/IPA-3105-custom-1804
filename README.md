@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/app-icon.png" width="132" alt="3105 app icon">
+  <img src="docs/images/app-icon.png" width="132" alt="1804 app icon">
 </p>
 
-<h1 align="center">3105</h1>
+<h1 align="center">1804</h1>
 
 <p align="center">
   A native iOS workspace for app-container files, portable patches, limited cleanup, and PosterBoard wallpaper packages.
@@ -23,29 +23,29 @@
 </p>
 
 > [!WARNING]
-> 3105 is research software for personal device management. Keep a backup and use it only on devices and data you own. Simulator screenshots demonstrate UI only; they do not verify device-level access.
+> 1804 is research software for personal device management. Keep a backup and use it only on devices and data you own. Simulator screenshots demonstrate UI only; they do not verify device-level access.
 
 ## Preview
 
 <p align="center">
-  <img src="docs/images/home.png" width="245" alt="3105 Home">
+  <img src="docs/images/home.png" width="245" alt="1804 Home">
   &nbsp;
-  <img src="docs/images/patches.png" width="245" alt="3105 Patches">
+  <img src="docs/images/patches.png" width="245" alt="1804 Patches">
   &nbsp;
-  <img src="docs/images/cleaner.png" width="245" alt="3105 Cleaner">
+  <img src="docs/images/cleaner.png" width="245" alt="1804 Cleaner">
 </p>
 
 ## What's new in 1.1.0
 
 - **Broader iOS support** — verified range now includes iOS 17.0–17.7.x (kernel exploit), iOS 18.0–18.7.1 (kernel exploit), iOS 26.0–26.6.1 and iOS 27 Developer Beta 1–4 / Public Beta 1–2.
-- **Wrong-password feedback** — importing a `.3105` patch with an incorrect password now shows "Incorrect password" instead of failing silently.
+- **Wrong-password feedback** — importing a `.1804` patch with an incorrect password now shows "Incorrect password" instead of failing silently.
 - **Onboarding for reinstalls** — onboarding reappears after overwriting the app with the same version, so fresh and overwritten installs both see the guided setup.
 
 See the complete [Patch workspace guide](docs/PATCH_GUIDE.md).
 
 ## What's new in 1.0.1
 
-- **Patch workspace v2** — build patches as a normal bundle-based directory tree under `On My iPhone/3105/Patches`; Apply and Export synchronize the workspace automatically.
+- **Patch workspace v2** — build patches as a normal bundle-based directory tree under `On My iPhone/1804/Patches`; Apply and Export synchronize the workspace automatically.
 - **Safer recovery** — original files are journaled before writes; Restore puts existing files back, removes files introduced by the patch, and removes patch-created directories once empty.
 - **More capable Files tab** — independent tabs, preserved folder position, multi-selection, ZIP creation and extraction, plus a denser and more consistent grouped layout.
 - **Responsive navigation** — iPad split-view and landscape support, optional Cleaner/Wallpaper tabs, stable search fields, and refined icon/row sizing.
@@ -57,15 +57,15 @@ See the complete [Patch workspace guide](docs/PATCH_GUIDE.md).
 
 - **App Data Browser** — resolves volatile container UUIDs to stable app bundle identifiers and exposes a native file workspace.
 - **File operations** — search, preview, share, import multiple files, copy, move, paste, rename, delete, create files and folders, make ZIP archives, and safely handle name conflicts.
-- **Portable `.3105` patches** — bundle-based rules survive container-ID changes between devices; projects may include files or folders, support optional password protection, and can be imported from Files or a secure website link.
+- **Portable `.1804` patches** — bundle-based rules survive container-ID changes between devices; projects may include files or folders, support optional password protection, and can be imported from Files or a secure website link.
 - **Limited Cleaner** — scans only each app's `Library/Caches` and `tmp`, sorts recoverable size in either direction, supports bulk selection, and requires confirmation before deletion.
-- **Wallpaper Lab** — imports `.tendies` packages, validates payloads, journals installed items, and resets only content installed by 3105.
-- **No jailbreak installation** — 3105 does not install a persistent jailbreak, bootstrap, or daemon and does not inject code into third-party apps. Because it still uses device exploits and can modify app data, no universal guarantee can be made against every app's integrity or jailbreak-detection policy.
+- **Wallpaper Lab** — imports `.tendies` packages, validates payloads, journals installed items, and resets only content installed by 1804.
+- **No jailbreak installation** — 1804 does not install a persistent jailbreak, bootstrap, or daemon and does not inject code into third-party apps. Because it still uses device exploits and can modify app data, no universal guarantee can be made against every app's integrity or jailbreak-detection policy.
 - **Localized interface** — English, Vietnamese, and Simplified Chinese.
 
 ## Compatibility
 
-3105 enables device-level features only for builds explicitly verified by the project:
+1804 enables device-level features only for builds explicitly verified by the project:
 
 | System | Verified range/builds |
 | --- | --- |
@@ -89,9 +89,9 @@ Unlisted iOS 27 builds are marked unsupported rather than assumed compatible. Th
 ## Project layout
 
 ```text
-3105/
+1804/
 ├── ThreeOneOSFive/          # SwiftUI app, helpers, native bridges, localizations
-├── ThreeOneOSFive.xcodeproj # Xcode project and 3105 scheme
+├── ThreeOneOSFive.xcodeproj # Xcode project and 1804 scheme
 └── docs/images/             # Repository artwork and current UI previews
 ```
 
@@ -101,7 +101,7 @@ Do not publish logs, app containers, cookies, account databases, or patch payloa
 
 ## Credits
 
-3105 is developed and designed by [YangJiii](https://x.com/duongduong0908).
+1804 is developed and designed by [YangJiii](https://x.com/duongduong0908).
 
 Special thanks to [0xjohnny](https://x.com/0xjohnny) for [FilzaSlop](https://github.com/0xjohnnydev/FilzaSlop) and related research:
 
@@ -114,4 +114,4 @@ The project also builds on work from Pocket Poster/Nugget, CrazyMind90, forcequi
 
 ## License
 
-Original portions of 3105 are distributed under the [GNU General Public License v3.0](LICENSE). Third-party components remain subject to their respective upstream copyright and license terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Original portions of 1804 are distributed under the [GNU General Public License v3.0](LICENSE). Third-party components remain subject to their respective upstream copyright and license terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

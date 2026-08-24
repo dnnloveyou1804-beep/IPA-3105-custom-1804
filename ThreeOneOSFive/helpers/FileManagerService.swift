@@ -465,7 +465,7 @@ enum FileManagerService {
         }
 
         let stagingURL = directoryURL.appendingPathComponent(
-            ".3105-import-\(UUID().uuidString)",
+            ".1804-import-\(UUID().uuidString)",
             isDirectory: false
         )
         try createExclusiveFile(
@@ -609,7 +609,7 @@ enum FileManagerService {
         fileManager: FileManager
     ) throws {
         let staging = destinationURL.deletingLastPathComponent()
-            .appendingPathComponent(".3105-copy-\(UUID().uuidString)")
+            .appendingPathComponent(".1804-copy-\(UUID().uuidString)")
         defer { try? fileManager.removeItem(at: staging) }
         do {
             try fileManager.copyItem(at: sourceURL, to: staging)
@@ -654,7 +654,7 @@ enum FileManagerService {
         }
 
         let backup = destinationURL.deletingLastPathComponent()
-            .appendingPathComponent(".3105-displaced-\(UUID().uuidString)")
+            .appendingPathComponent(".1804-displaced-\(UUID().uuidString)")
         do {
             try fileManager.moveItem(at: destinationURL, to: backup)
             do {
@@ -687,7 +687,7 @@ enum FileManagerService {
             return
         }
         let backup = destinationURL.deletingLastPathComponent()
-            .appendingPathComponent(".3105-displaced-\(UUID().uuidString)")
+            .appendingPathComponent(".1804-displaced-\(UUID().uuidString)")
         try fileManager.moveItem(at: destinationURL, to: backup)
         do {
             try fileManager.moveItem(at: stagingURL, to: destinationURL)

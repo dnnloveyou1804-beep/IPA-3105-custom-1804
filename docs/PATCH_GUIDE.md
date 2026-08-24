@@ -1,6 +1,6 @@
 # Patch workspace guide
 
-3105 patch packages target an app by its stable bundle identifier. They never store the app-container UUID, because that UUID changes across devices and reinstalls.
+1804 patch packages target an app by its stable bundle identifier. They never store the app-container UUID, because that UUID changes across devices and reinstalls.
 
 ## Workspace layout
 
@@ -8,7 +8,7 @@ Creating a patch named `ABC` for `com.abc.xyz` creates this editable tree:
 
 ```text
 On My iPhone/
-└── 3105/
+└── 1804/
     └── Patches/
         └── ABC/
             └── com.abc.xyz/
@@ -28,8 +28,8 @@ Everything below the bundle folder is a path relative to that app's data contain
 1. Open **Patch**, tap **+**, then choose **New Patch**.
 2. Enter a project name and the target bundle identifier.
 3. Optionally set a password. A package password cannot be changed later.
-4. Tap **Done**. 3105 creates the project and its editable workspace.
-5. Open **Files → 3105 Workspace → Patches → project name → bundle ID**.
+4. Tap **Done**. 1804 creates the project and its editable workspace.
+5. Open **Files → 1804 Workspace → Patches → project name → bundle ID**.
 6. Recreate the destination tree and place each replacement file at its final relative path.
 
 For example, to replace `Library/Preferences/com.abc.xyz.plist`, put the replacement at exactly that path inside the `com.abc.xyz` folder. To add a complete folder, copy the folder into the correct parent path; every regular file below it becomes part of the patch.
@@ -38,14 +38,14 @@ For example, to replace `Library/Preferences/com.abc.xyz.plist`, put the replace
 
 1. Open **Files**, enter an app container, then find the target file or folder.
 2. Touch and hold it, then choose **Create Patch**.
-3. 3105 captures the stable bundle identifier and relative path automatically and opens a patch draft.
+3. 1804 captures the stable bundle identifier and relative path automatically and opens a patch draft.
 4. Save the draft, open its workspace, and replace or rearrange the captured content as needed.
 
 ## Apply and restore
 
-- **Apply** first synchronizes the workspace into the encrypted `.3105` package, resolves the current container from the bundle identifier, and validates every destination path.
+- **Apply** first synchronizes the workspace into the encrypted `.1804` package, resolves the current container from the bundle identifier, and validates every destination path.
 - Existing targets are backed up before any replacement is written. Missing targets are created.
-- Writes are journaled and verified. If applying fails partway through, 3105 attempts to roll the transaction back.
+- Writes are journaled and verified. If applying fails partway through, 1804 attempts to roll the transaction back.
 - **Restore Originals** returns files that existed before Apply, deletes files introduced by the patch, and removes directories created by the patch after they become empty.
 - Restore fails closed if the current target or recovery data no longer matches the recorded transaction, instead of overwriting an unverified file.
 
@@ -53,10 +53,10 @@ Keep the target app closed while applying or restoring a patch. Do not rename th
 
 ## Export, import, and passwords
 
-- **Export** synchronizes the latest workspace contents before sharing the `.3105` file.
-- Import from Files by opening or sharing a `.3105` package to 3105.
+- **Export** synchronizes the latest workspace contents before sharing the `.1804` file.
+- Import from Files by opening or sharing a `.1804` package to 1804.
 - A website may open the app with `threeoneosfive://import?url=<percent-encoded HTTPS URL>`. Only HTTPS package URLs without embedded credentials are accepted.
-- On a new device or installation, a protected package asks for its password once. 3105 stores the unlocked content key in Keychain; the exported package remains encrypted and tied to its original password.
+- On a new device or installation, a protected package asks for its password once. 1804 stores the unlocked content key in Keychain; the exported package remains encrypted and tied to its original password.
 - Legacy v1 packages remain supported. Opening an existing v1 package does not silently rewrite it as v2.
 
 ## Safety rules

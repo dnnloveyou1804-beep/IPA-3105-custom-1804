@@ -7,153 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3105A200 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A020; };
-		3105A201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A021; };
-		3105A203 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A023; };
-		3105A204 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A024; };
-		3105A205 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A025; };
-		3105A206 /* SBX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A026; };
-		3105A207 /* MG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A027; };
-		3105A209 /* bad_query.c in Sources */ = {isa = PBXBuildFile; fileRef = 3105A029; };
-		3105A210 /* mcm_bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A030; };
-		3105A220 /* kexploit_opa334.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A080; };
-		3105A221 /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A081; };
-		3105A222 /* krw.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A082; };
-		3105A223 /* kutils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A083; };
-		3105A224 /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A084; };
-		3105A225 /* sandbox_escape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A085; };
-		3105A226 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A098; };
-		3105A227 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A099; };
-		3105A235 /* AppIconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A106; };
-		3105A208 /* KernelExploit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A202; };
-		3105J200 /* AntiDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105J201; };
-		3105J204 /* DisplayIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105J203; };
-		3105J206 /* DisplayIdentityAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105J205; };
-		3105A236 /* ContainerIdentityResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A108; };
-		3105A237 /* ContainerBrowserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A109; };
-		3105A238 /* FileReplacementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A110; };
-		3105A239 /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A111; };
-		3105A240 /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A112; };
-		3105A241 /* SupportPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A113; };
-		3105B214 /* PatchProjectModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B114; };
-		3105B215 /* PatchPackageCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B115; };
-		3105B216 /* PatchKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B116; };
-		3105B217 /* PatchTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B117; };
-		3105B218 /* DevicePatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B118; };
-		3105B219 /* PatchProjectLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B119; };
-		3105B220 /* PatchProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B120; };
-		3105B221 /* PatchProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B121; };
-		3105B222 /* PatchProjectEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105B122; };
-		3105C200 /* PatchDraftService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105C100; };
-		3105C201 /* PatchDraftCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105C101; };
-		3105C202 /* FolderPatchSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105C102; };
-		3105E200 /* LimitedCleanerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E100; };
-		3105E201 /* CleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E101; };
-		3105E202 /* CleanerCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E102; };
-		3105F200 /* wallpaper_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3105F100; };
-		3105F201 /* WallpaperLabModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F102; };
-		3105F202 /* SecureZIPArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F103; };
-		3105F203 /* WallpaperInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F104; };
-		3105F204 /* WallpaperLabService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F105; };
-		3105F205 /* WallpaperLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F106; };
-		3105F206 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F108; };
-		3105G200 /* ZIPArchiveWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G100; };
-		3105G201 /* FileOperationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G101; };
-		3105G202 /* ZIPArchiveExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G102; };
-		3105G203 /* PatchWorkspaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G103; };
-		3105H200 /* AppTabNavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105H100; };
-		3105I200 /* FilesTabControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105I100; };
-		3105I201 /* FilesTabSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105I101; };
-		3105A233 /* ContainerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A104; };
-		3105A234 /* AppDataBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A105; };
-		3105A228 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3105A120; };
-		3105A211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3105A031; };
+		1804A200 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A020; };
+		1804A201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A021; };
+		1804A203 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A023; };
+		1804A204 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A024; };
+		1804A205 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A025; };
+		1804A206 /* SBX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A026; };
+		1804A207 /* MG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A027; };
+		1804A209 /* bad_query.c in Sources */ = {isa = PBXBuildFile; fileRef = 1804A029; };
+		1804A210 /* mcm_bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A030; };
+		1804A220 /* kexploit_opa334.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A080; };
+		1804A221 /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A081; };
+		1804A222 /* krw.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A082; };
+		1804A223 /* kutils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A083; };
+		1804A224 /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A084; };
+		1804A225 /* sandbox_escape.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A085; };
+		1804A226 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A098; };
+		1804A227 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A099; };
+		1804A235 /* AppIconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804A106; };
+		1804A208 /* KernelExploit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A202; };
+		1804J200 /* AntiDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804J201; };
+		1804J204 /* DisplayIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804J203; };
+		1804J206 /* DisplayIdentityAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804J205; };
+		1804A236 /* ContainerIdentityResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A108; };
+		1804A237 /* ContainerBrowserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A109; };
+		1804A238 /* FileReplacementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A110; };
+		1804A239 /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A111; };
+		1804A240 /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A112; };
+		1804A241 /* SupportPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A113; };
+		1804B214 /* PatchProjectModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B114; };
+		1804B215 /* PatchPackageCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B115; };
+		1804B216 /* PatchKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B116; };
+		1804B217 /* PatchTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B117; };
+		1804B218 /* DevicePatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B118; };
+		1804B219 /* PatchProjectLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B119; };
+		1804B220 /* PatchProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B120; };
+		1804B221 /* PatchProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B121; };
+		1804B222 /* PatchProjectEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804B122; };
+		1804C200 /* PatchDraftService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804C100; };
+		1804C201 /* PatchDraftCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804C101; };
+		1804C202 /* FolderPatchSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804C102; };
+		1804E200 /* LimitedCleanerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804E100; };
+		1804E201 /* CleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804E101; };
+		1804E202 /* CleanerCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804E102; };
+		1804F200 /* wallpaper_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1804F100; };
+		1804F201 /* WallpaperLabModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804F102; };
+		1804F202 /* SecureZIPArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804F103; };
+		1804F203 /* WallpaperInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804F104; };
+		1804F204 /* WallpaperLabService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804F105; };
+		1804F205 /* WallpaperLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804F106; };
+		1804F206 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804F108; };
+		1804G200 /* ZIPArchiveWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804G100; };
+		1804G201 /* FileOperationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804G101; };
+		1804G202 /* ZIPArchiveExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804G102; };
+		1804G203 /* PatchWorkspaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804G103; };
+		1804H200 /* AppTabNavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804H100; };
+		1804I200 /* FilesTabControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804I100; };
+		1804I201 /* FilesTabSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804I101; };
+		1804A233 /* ContainerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A104; };
+		1804A234 /* AppDataBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804A105; };
+		1804A228 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1804A120; };
+		1804A211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1804A031; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3105A010 /* 3105.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3105.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3105A020 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		3105A021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3105A023 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		3105A024 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
-		3105A025 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		3105A026 /* SBX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBX.swift; sourceTree = "<group>"; };
-		3105A027 /* MG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG.swift; sourceTree = "<group>"; };
-		3105A029 /* bad_query.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bad_query.c; sourceTree = "<group>"; };
-		3105A030 /* mcm_bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mcm_bridge.m; sourceTree = "<group>"; };
-		3105A031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3105A040 /* bad_query.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bad_query.h; sourceTree = "<group>"; };
-		3105A041 /* mcm_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mcm_bridge.h; sourceTree = "<group>"; };
-		3105A050 /* ThreeOneOSFive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeOneOSFive-Bridging-Header.h"; sourceTree = "<group>"; };
-		3105A060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3105A080 /* kexploit_opa334.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kexploit_opa334.m; sourceTree = "<group>"; };
-		3105A081 /* offsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
-		3105A082 /* krw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krw.m; sourceTree = "<group>"; };
-		3105A083 /* kutils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kutils.m; sourceTree = "<group>"; };
-		3105A084 /* vnode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vnode.m; sourceTree = "<group>"; };
-		3105A085 /* sandbox_escape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sandbox_escape.m; sourceTree = "<group>"; };
-		3105A090 /* kexploit_opa334.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kexploit_opa334.h; sourceTree = "<group>"; };
-		3105A091 /* offsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
-		3105A092 /* krw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krw.h; sourceTree = "<group>"; };
-		3105A093 /* kutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kutils.h; sourceTree = "<group>"; };
-		3105A094 /* vnode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnode.h; sourceTree = "<group>"; };
-		3105A095 /* sandbox_escape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sandbox_escape.h; sourceTree = "<group>"; };
-		3105A096 /* machine_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = machine_info.h; sourceTree = "<group>"; };
-		3105A097 /* xpaci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xpaci.h; sourceTree = "<group>"; };
-		3105A098 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
-		3105A099 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
-		3105A104 /* ContainerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerStore.swift; sourceTree = "<group>"; };
-		3105A105 /* AppDataBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataBrowserView.swift; sourceTree = "<group>"; };
-		3105A106 /* AppIconHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppIconHelper.m; sourceTree = "<group>"; };
-		3105A107 /* AppIconHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppIconHelper.h; sourceTree = "<group>"; };
-		3105A202 /* KernelExploit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernelExploit.swift; sourceTree = "<group>"; };
-		3105J201 /* AntiDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiDetection.m; sourceTree = "<group>"; };
-		3105J202 /* DisplayIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayIdentity.h; sourceTree = "<group>"; };
-		3105J203 /* DisplayIdentity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayIdentity.m; sourceTree = "<group>"; };
-		3105J205 /* DisplayIdentityAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIdentityAttribution.swift; sourceTree = "<group>"; };
-		3105A108 /* ContainerIdentityResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerIdentityResolver.swift; sourceTree = "<group>"; };
-		3105A109 /* ContainerBrowserLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBrowserLogic.swift; sourceTree = "<group>"; };
-		3105A110 /* FileReplacementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReplacementService.swift; sourceTree = "<group>"; };
-		3105A111 /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
-		3105A112 /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
-		3105A113 /* SupportPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPolicy.swift; sourceTree = "<group>"; };
-		3105B114 /* PatchProjectModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectModels.swift; sourceTree = "<group>"; };
-		3105B115 /* PatchPackageCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchPackageCodec.swift; sourceTree = "<group>"; };
-		3105B116 /* PatchKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchKeyStore.swift; sourceTree = "<group>"; };
-		3105B117 /* PatchTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchTransaction.swift; sourceTree = "<group>"; };
-		3105B118 /* DevicePatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePatchService.swift; sourceTree = "<group>"; };
-		3105B119 /* PatchProjectLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectLibrary.swift; sourceTree = "<group>"; };
-		3105B120 /* PatchProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectStore.swift; sourceTree = "<group>"; };
-		3105B121 /* PatchProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectsView.swift; sourceTree = "<group>"; };
-		3105B122 /* PatchProjectEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectEditorView.swift; sourceTree = "<group>"; };
-		3105C100 /* PatchDraftService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftService.swift; sourceTree = "<group>"; };
-		3105C101 /* PatchDraftCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftCoordinator.swift; sourceTree = "<group>"; };
-		3105C102 /* FolderPatchSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPatchSelectionView.swift; sourceTree = "<group>"; };
-		3105E100 /* LimitedCleanerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedCleanerService.swift; sourceTree = "<group>"; };
-		3105E101 /* CleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerView.swift; sourceTree = "<group>"; };
-		3105E102 /* CleanerCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerCatalog.swift; sourceTree = "<group>"; };
-		3105F100 /* wallpaper_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wallpaper_zip.c; sourceTree = "<group>"; };
-		3105F101 /* wallpaper_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wallpaper_zip.h; sourceTree = "<group>"; };
-		3105F102 /* WallpaperLabModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabModels.swift; sourceTree = "<group>"; };
-		3105F103 /* SecureZIPArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureZIPArchive.swift; sourceTree = "<group>"; };
-		3105F104 /* WallpaperInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperInstaller.swift; sourceTree = "<group>"; };
-		3105F105 /* WallpaperLabService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabService.swift; sourceTree = "<group>"; };
-		3105F106 /* WallpaperLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabView.swift; sourceTree = "<group>"; };
-		3105F108 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		3105G100 /* ZIPArchiveWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveWriter.swift; sourceTree = "<group>"; };
-		3105G101 /* FileOperationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOperationCoordinator.swift; sourceTree = "<group>"; };
-		3105G102 /* ZIPArchiveExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveExtractor.swift; sourceTree = "<group>"; };
-		3105G103 /* PatchWorkspaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchWorkspaceService.swift; sourceTree = "<group>"; };
-		3105H100 /* AppTabNavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigationState.swift; sourceTree = "<group>"; };
-		3105I100 /* FilesTabControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabControls.swift; sourceTree = "<group>"; };
-		3105I101 /* FilesTabSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabSwitcherView.swift; sourceTree = "<group>"; };
-		3105A121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3105A122 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3105B123 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1804A010 /* 1804.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1804.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804A020 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		1804A021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1804A023 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1804A024 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		1804A025 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1804A026 /* SBX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBX.swift; sourceTree = "<group>"; };
+		1804A027 /* MG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG.swift; sourceTree = "<group>"; };
+		1804A029 /* bad_query.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bad_query.c; sourceTree = "<group>"; };
+		1804A030 /* mcm_bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mcm_bridge.m; sourceTree = "<group>"; };
+		1804A031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1804A040 /* bad_query.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bad_query.h; sourceTree = "<group>"; };
+		1804A041 /* mcm_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mcm_bridge.h; sourceTree = "<group>"; };
+		1804A050 /* ThreeOneOSFive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeOneOSFive-Bridging-Header.h"; sourceTree = "<group>"; };
+		1804A060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1804A080 /* kexploit_opa334.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kexploit_opa334.m; sourceTree = "<group>"; };
+		1804A081 /* offsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
+		1804A082 /* krw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krw.m; sourceTree = "<group>"; };
+		1804A083 /* kutils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kutils.m; sourceTree = "<group>"; };
+		1804A084 /* vnode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vnode.m; sourceTree = "<group>"; };
+		1804A085 /* sandbox_escape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sandbox_escape.m; sourceTree = "<group>"; };
+		1804A090 /* kexploit_opa334.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kexploit_opa334.h; sourceTree = "<group>"; };
+		1804A091 /* offsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		1804A092 /* krw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krw.h; sourceTree = "<group>"; };
+		1804A093 /* kutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kutils.h; sourceTree = "<group>"; };
+		1804A094 /* vnode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnode.h; sourceTree = "<group>"; };
+		1804A095 /* sandbox_escape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sandbox_escape.h; sourceTree = "<group>"; };
+		1804A096 /* machine_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = machine_info.h; sourceTree = "<group>"; };
+		1804A097 /* xpaci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xpaci.h; sourceTree = "<group>"; };
+		1804A098 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		1804A099 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		1804A104 /* ContainerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerStore.swift; sourceTree = "<group>"; };
+		1804A105 /* AppDataBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataBrowserView.swift; sourceTree = "<group>"; };
+		1804A106 /* AppIconHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppIconHelper.m; sourceTree = "<group>"; };
+		1804A107 /* AppIconHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppIconHelper.h; sourceTree = "<group>"; };
+		1804A202 /* KernelExploit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernelExploit.swift; sourceTree = "<group>"; };
+		1804J201 /* AntiDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiDetection.m; sourceTree = "<group>"; };
+		1804J202 /* DisplayIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayIdentity.h; sourceTree = "<group>"; };
+		1804J203 /* DisplayIdentity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayIdentity.m; sourceTree = "<group>"; };
+		1804J205 /* DisplayIdentityAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIdentityAttribution.swift; sourceTree = "<group>"; };
+		1804A108 /* ContainerIdentityResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerIdentityResolver.swift; sourceTree = "<group>"; };
+		1804A109 /* ContainerBrowserLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBrowserLogic.swift; sourceTree = "<group>"; };
+		1804A110 /* FileReplacementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReplacementService.swift; sourceTree = "<group>"; };
+		1804A111 /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
+		1804A112 /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
+		1804A113 /* SupportPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPolicy.swift; sourceTree = "<group>"; };
+		1804B114 /* PatchProjectModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectModels.swift; sourceTree = "<group>"; };
+		1804B115 /* PatchPackageCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchPackageCodec.swift; sourceTree = "<group>"; };
+		1804B116 /* PatchKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchKeyStore.swift; sourceTree = "<group>"; };
+		1804B117 /* PatchTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchTransaction.swift; sourceTree = "<group>"; };
+		1804B118 /* DevicePatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePatchService.swift; sourceTree = "<group>"; };
+		1804B119 /* PatchProjectLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectLibrary.swift; sourceTree = "<group>"; };
+		1804B120 /* PatchProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectStore.swift; sourceTree = "<group>"; };
+		1804B121 /* PatchProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectsView.swift; sourceTree = "<group>"; };
+		1804B122 /* PatchProjectEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectEditorView.swift; sourceTree = "<group>"; };
+		1804C100 /* PatchDraftService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftService.swift; sourceTree = "<group>"; };
+		1804C101 /* PatchDraftCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftCoordinator.swift; sourceTree = "<group>"; };
+		1804C102 /* FolderPatchSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPatchSelectionView.swift; sourceTree = "<group>"; };
+		1804E100 /* LimitedCleanerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedCleanerService.swift; sourceTree = "<group>"; };
+		1804E101 /* CleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerView.swift; sourceTree = "<group>"; };
+		1804E102 /* CleanerCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerCatalog.swift; sourceTree = "<group>"; };
+		1804F100 /* wallpaper_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wallpaper_zip.c; sourceTree = "<group>"; };
+		1804F101 /* wallpaper_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wallpaper_zip.h; sourceTree = "<group>"; };
+		1804F102 /* WallpaperLabModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabModels.swift; sourceTree = "<group>"; };
+		1804F103 /* SecureZIPArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureZIPArchive.swift; sourceTree = "<group>"; };
+		1804F104 /* WallpaperInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperInstaller.swift; sourceTree = "<group>"; };
+		1804F105 /* WallpaperLabService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabService.swift; sourceTree = "<group>"; };
+		1804F106 /* WallpaperLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabView.swift; sourceTree = "<group>"; };
+		1804F108 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1804G100 /* ZIPArchiveWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveWriter.swift; sourceTree = "<group>"; };
+		1804G101 /* FileOperationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOperationCoordinator.swift; sourceTree = "<group>"; };
+		1804G102 /* ZIPArchiveExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveExtractor.swift; sourceTree = "<group>"; };
+		1804G103 /* PatchWorkspaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchWorkspaceService.swift; sourceTree = "<group>"; };
+		1804H100 /* AppTabNavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigationState.swift; sourceTree = "<group>"; };
+		1804I100 /* FilesTabControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabControls.swift; sourceTree = "<group>"; };
+		1804I101 /* FilesTabSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabSwitcherView.swift; sourceTree = "<group>"; };
+		1804A121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1804A122 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1804B123 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3105A300 /* Frameworks */ = {
+		1804A300 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,133 +163,133 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3105A400 = {
+		1804A400 = {
 			isa = PBXGroup;
 			children = (
-				3105A401 /* ThreeOneOSFive */,
-				3105A402 /* Products */,
+				1804A401 /* ThreeOneOSFive */,
+				1804A402 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3105A401 /* ThreeOneOSFive */ = {
+		1804A401 /* ThreeOneOSFive */ = {
 			isa = PBXGroup;
 			children = (
-				3105A050 /* ThreeOneOSFive-Bridging-Header.h */,
-				3105A060 /* Info.plist */,
-				3105A020 /* App.swift */,
-				3105A021 /* ContentView.swift */,
-				3105A403 /* exploit */,
-				3105A404 /* views */,
-				3105A405 /* helpers */,
-				3105A406 /* kexploit */,
-				3105A120 /* Localizable.strings */,
-				3105A031 /* Assets.xcassets */,
+				1804A050 /* ThreeOneOSFive-Bridging-Header.h */,
+				1804A060 /* Info.plist */,
+				1804A020 /* App.swift */,
+				1804A021 /* ContentView.swift */,
+				1804A403 /* exploit */,
+				1804A404 /* views */,
+				1804A405 /* helpers */,
+				1804A406 /* kexploit */,
+				1804A120 /* Localizable.strings */,
+				1804A031 /* Assets.xcassets */,
 			);
 			path = ThreeOneOSFive;
 			sourceTree = "<group>";
 		};
-		3105A402 /* Products */ = {
+		1804A402 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3105A010 /* 3105.app */,
+				1804A010 /* 1804.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3105A403 /* exploit */ = {
+		1804A403 /* exploit */ = {
 			isa = PBXGroup;
 			children = (
-				3105A029 /* bad_query.c */,
-				3105A040 /* bad_query.h */,
-				3105A030 /* mcm_bridge.m */,
-				3105A041 /* mcm_bridge.h */,
-				3105F100 /* wallpaper_zip.c */,
-				3105F101 /* wallpaper_zip.h */,
+				1804A029 /* bad_query.c */,
+				1804A040 /* bad_query.h */,
+				1804A030 /* mcm_bridge.m */,
+				1804A041 /* mcm_bridge.h */,
+				1804F100 /* wallpaper_zip.c */,
+				1804F101 /* wallpaper_zip.h */,
 			);
 			path = exploit;
 			sourceTree = "<group>";
 		};
-		3105A404 /* views */ = {
+		1804A404 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3105A098 /* DesignSystem.swift */,
-				3105A023 /* SettingsView.swift */,
-				3105A024 /* LogView.swift */,
-				3105A105 /* AppDataBrowserView.swift */,
-				3105A112 /* FileBrowserView.swift */,
-				3105I100 /* FilesTabControls.swift */,
-				3105I101 /* FilesTabSwitcherView.swift */,
-				3105B121 /* PatchProjectsView.swift */,
-				3105B122 /* PatchProjectEditorView.swift */,
-				3105C102 /* FolderPatchSelectionView.swift */,
-				3105E101 /* CleanerView.swift */,
-				3105F106 /* WallpaperLabView.swift */,
-				3105F108 /* OnboardingView.swift */,
+				1804A098 /* DesignSystem.swift */,
+				1804A023 /* SettingsView.swift */,
+				1804A024 /* LogView.swift */,
+				1804A105 /* AppDataBrowserView.swift */,
+				1804A112 /* FileBrowserView.swift */,
+				1804I100 /* FilesTabControls.swift */,
+				1804I101 /* FilesTabSwitcherView.swift */,
+				1804B121 /* PatchProjectsView.swift */,
+				1804B122 /* PatchProjectEditorView.swift */,
+				1804C102 /* FolderPatchSelectionView.swift */,
+				1804E101 /* CleanerView.swift */,
+				1804F106 /* WallpaperLabView.swift */,
+				1804F108 /* OnboardingView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
 		};
-		3105A405 /* helpers */ = {
+		1804A405 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
-				3105A099 /* Localization.swift */,
-				3105A104 /* ContainerStore.swift */,
-				3105A108 /* ContainerIdentityResolver.swift */,
-				3105A109 /* ContainerBrowserLogic.swift */,
-				3105A110 /* FileReplacementService.swift */,
-				3105A111 /* FileManagerService.swift */,
-				3105G100 /* ZIPArchiveWriter.swift */,
-				3105G102 /* ZIPArchiveExtractor.swift */,
-				3105G101 /* FileOperationCoordinator.swift */,
-				3105A113 /* SupportPolicy.swift */,
-				3105B114 /* PatchProjectModels.swift */,
-				3105B115 /* PatchPackageCodec.swift */,
-				3105B116 /* PatchKeyStore.swift */,
-				3105B117 /* PatchTransaction.swift */,
-				3105B118 /* DevicePatchService.swift */,
-				3105B119 /* PatchProjectLibrary.swift */,
-				3105B120 /* PatchProjectStore.swift */,
-				3105G103 /* PatchWorkspaceService.swift */,
-				3105H100 /* AppTabNavigationState.swift */,
-				3105C100 /* PatchDraftService.swift */,
-				3105C101 /* PatchDraftCoordinator.swift */,
-				3105E100 /* LimitedCleanerService.swift */,
-				3105E102 /* CleanerCatalog.swift */,
-				3105F102 /* WallpaperLabModels.swift */,
-				3105F103 /* SecureZIPArchive.swift */,
-				3105F104 /* WallpaperInstaller.swift */,
-				3105F105 /* WallpaperLabService.swift */,
-				3105A106 /* AppIconHelper.m */,
-				3105A107 /* AppIconHelper.h */,
-				3105A202 /* KernelExploit.swift */,
-				3105J201 /* AntiDetection.m */,
-				3105J202 /* DisplayIdentity.h */,
-				3105J203 /* DisplayIdentity.m */,
-				3105J205 /* DisplayIdentityAttribution.swift */,
-				3105A025 /* Utils.swift */,
-				3105A026 /* SBX.swift */,
-				3105A027 /* MG.swift */,
+				1804A099 /* Localization.swift */,
+				1804A104 /* ContainerStore.swift */,
+				1804A108 /* ContainerIdentityResolver.swift */,
+				1804A109 /* ContainerBrowserLogic.swift */,
+				1804A110 /* FileReplacementService.swift */,
+				1804A111 /* FileManagerService.swift */,
+				1804G100 /* ZIPArchiveWriter.swift */,
+				1804G102 /* ZIPArchiveExtractor.swift */,
+				1804G101 /* FileOperationCoordinator.swift */,
+				1804A113 /* SupportPolicy.swift */,
+				1804B114 /* PatchProjectModels.swift */,
+				1804B115 /* PatchPackageCodec.swift */,
+				1804B116 /* PatchKeyStore.swift */,
+				1804B117 /* PatchTransaction.swift */,
+				1804B118 /* DevicePatchService.swift */,
+				1804B119 /* PatchProjectLibrary.swift */,
+				1804B120 /* PatchProjectStore.swift */,
+				1804G103 /* PatchWorkspaceService.swift */,
+				1804H100 /* AppTabNavigationState.swift */,
+				1804C100 /* PatchDraftService.swift */,
+				1804C101 /* PatchDraftCoordinator.swift */,
+				1804E100 /* LimitedCleanerService.swift */,
+				1804E102 /* CleanerCatalog.swift */,
+				1804F102 /* WallpaperLabModels.swift */,
+				1804F103 /* SecureZIPArchive.swift */,
+				1804F104 /* WallpaperInstaller.swift */,
+				1804F105 /* WallpaperLabService.swift */,
+				1804A106 /* AppIconHelper.m */,
+				1804A107 /* AppIconHelper.h */,
+				1804A202 /* KernelExploit.swift */,
+				1804J201 /* AntiDetection.m */,
+				1804J202 /* DisplayIdentity.h */,
+				1804J203 /* DisplayIdentity.m */,
+				1804J205 /* DisplayIdentityAttribution.swift */,
+				1804A025 /* Utils.swift */,
+				1804A026 /* SBX.swift */,
+				1804A027 /* MG.swift */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
 		};
-		3105A406 /* kexploit */ = {
+		1804A406 /* kexploit */ = {
 			isa = PBXGroup;
 			children = (
-				3105A080 /* kexploit_opa334.m */,
-				3105A090 /* kexploit_opa334.h */,
-				3105A081 /* offsets.m */,
-				3105A091 /* offsets.h */,
-				3105A082 /* krw.m */,
-				3105A092 /* krw.h */,
-				3105A083 /* kutils.m */,
-				3105A093 /* kutils.h */,
-				3105A084 /* vnode.m */,
-				3105A094 /* vnode.h */,
-				3105A085 /* sandbox_escape.m */,
-				3105A095 /* sandbox_escape.h */,
-				3105A096 /* machine_info.h */,
-				3105A097 /* xpaci.h */,
+				1804A080 /* kexploit_opa334.m */,
+				1804A090 /* kexploit_opa334.h */,
+				1804A081 /* offsets.m */,
+				1804A091 /* offsets.h */,
+				1804A082 /* krw.m */,
+				1804A092 /* krw.h */,
+				1804A083 /* kutils.m */,
+				1804A093 /* kutils.h */,
+				1804A084 /* vnode.m */,
+				1804A094 /* vnode.h */,
+				1804A085 /* sandbox_escape.m */,
+				1804A095 /* sandbox_escape.h */,
+				1804A096 /* machine_info.h */,
+				1804A097 /* xpaci.h */,
 			);
 			path = kexploit;
 			sourceTree = "<group>";
@@ -297,34 +297,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3105A500 /* 3105 */ = {
+		1804A500 /* 1804 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3105A600;
+			buildConfigurationList = 1804A600;
 			buildPhases = (
-				3105A700 /* Sources */,
-				3105A300 /* Frameworks */,
-				3105A800 /* Resources */,
+				1804A700 /* Sources */,
+				1804A300 /* Frameworks */,
+				1804A800 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 3105;
-			productName = 3105;
-			productReference = 3105A010;
+			name = 1804;
+			productName = 1804;
+			productReference = 1804A010;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3105A900 /* Project object */ = {
+		1804A900 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 3105AA00;
+			buildConfigurationList = 1804AA00;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -334,93 +334,93 @@
 				"zh-Hans",
 				Base,
 			);
-			mainGroup = 3105A400;
-			productRefGroup = 3105A402;
+			mainGroup = 1804A400;
+			productRefGroup = 1804A402;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3105A500,
+				1804A500,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3105A800 /* Resources */ = {
+		1804A800 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3105A211,
-				3105A228,
+				1804A211,
+				1804A228,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3105A700 /* Sources */ = {
+		1804A700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3105A200, 3105A201, 3105A203, 3105A204,
-				3105A205, 3105A206, 3105A207, 3105A209,
-				3105A210, 3105A220, 3105A221, 3105A222, 3105A223,
-				3105A224, 3105A225,
-				3105A226,
-				3105A227,
-				3105A233,
-				3105A234,
-				3105A235,
-				3105A236,
-				3105A237,
-				3105A238,
-				3105A239,
-				3105A208,
-				3105J200,
-				3105J204,
-				3105J206,
-				3105A240,
-				3105A241,
-				3105B214,
-				3105B215,
-				3105B216,
-				3105B217,
-				3105B218,
-				3105B219,
-				3105B220,
-				3105B221,
-				3105B222,
-				3105C200,
-				3105C201,
-				3105C202,
-				3105E200,
-				3105E201,
-				3105E202,
-				3105F200,
-				3105F201,
-				3105F202,
-				3105F203,
-				3105F204,
-				3105F205,
-				3105F206,
-				3105G200,
-				3105G201,
-				3105G202,
-				3105G203,
-				3105H200,
-				3105I200,
-				3105I201,
+				1804A200, 1804A201, 1804A203, 1804A204,
+				1804A205, 1804A206, 1804A207, 1804A209,
+				1804A210, 1804A220, 1804A221, 1804A222, 1804A223,
+				1804A224, 1804A225,
+				1804A226,
+				1804A227,
+				1804A233,
+				1804A234,
+				1804A235,
+				1804A236,
+				1804A237,
+				1804A238,
+				1804A239,
+				1804A208,
+				1804J200,
+				1804J204,
+				1804J206,
+				1804A240,
+				1804A241,
+				1804B214,
+				1804B215,
+				1804B216,
+				1804B217,
+				1804B218,
+				1804B219,
+				1804B220,
+				1804B221,
+				1804B222,
+				1804C200,
+				1804C201,
+				1804C202,
+				1804E200,
+				1804E201,
+				1804E202,
+				1804F200,
+				1804F201,
+				1804F202,
+				1804F203,
+				1804F204,
+				1804F205,
+				1804F206,
+				1804G200,
+				1804G201,
+				1804G202,
+				1804G203,
+				1804H200,
+				1804I200,
+				1804I201,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3105A120 /* Localizable.strings */ = {
+		1804A120 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3105A121 /* en */,
-				3105A122 /* vi */,
-				3105B123 /* zh-Hans */,
+				1804A121 /* en */,
+				1804A122 /* vi */,
+				1804B123 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -428,7 +428,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3105A601 /* Debug */ = {
+		1804A601 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -462,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		3105A602 /* Release */ = {
+		1804A602 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -496,7 +496,7 @@
 			};
 			name = Release;
 		};
-		3105AA01 /* Debug */ = {
+		1804AA01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -558,7 +558,7 @@
 			};
 			name = Debug;
 		};
-		3105AA02 /* Release */ = {
+		1804AA02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -616,25 +616,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3105A600 /* Build configuration list for PBXNativeTarget "3105" */ = {
+		1804A600 /* Build configuration list for PBXNativeTarget "1804" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3105A601 /* Debug */,
-				3105A602 /* Release */,
+				1804A601 /* Debug */,
+				1804A602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3105AA00 /* Build configuration list for PBXProject "ThreeOneOSFive" */ = {
+		1804AA00 /* Build configuration list for PBXProject "ThreeOneOSFive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3105AA01 /* Debug */,
-				3105AA02 /* Release */,
+				1804AA01 /* Debug */,
+				1804AA02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3105A900;
+	rootObject = 1804A900;
 }

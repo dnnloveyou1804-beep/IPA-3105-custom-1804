@@ -45,7 +45,7 @@ enum ZIPArchiveWriter {
         }
 
         let stagingURL = destinationURL.deletingLastPathComponent()
-            .appendingPathComponent(".3105-archive-\(UUID().uuidString)")
+            .appendingPathComponent(".1804-archive-\(UUID().uuidString)")
         guard fileManager.createFile(atPath: stagingURL.path, contents: nil) else {
             throw ZIPArchiveWriterError.writeFailed
         }
